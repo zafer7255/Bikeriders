@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,800;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<section class="body" > 
+<nav>
+    <a href="logo" class="logo" > <img src="images2/LOGO.png" alt=""></a>
+  <div class="header" id="Header" > 
+    <i id="G" class="fa fa-times" onclick="hidemenu()" ></i>
+    <ul> 
+        <li><a href="">HOME</a></li>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="">CONTACT</a></li>
+        <li><a href="">JOIN</a></li>
+        <li><a href="">PURCHASE</a></li>
+    </ul>
+  </div>
+  <i id="Y" class="fa fa-bars" onclick="showmenu()" ></i>
+
+</nav>
+    <div class="text">
+        <h1>  Best Riding Website   </h1>
+        <p>  Trying something new can be the hardest and most frightening. <br> Riding a bike, learning to swing or learning a new language can all be extremely difficult.      
+             </p>
+             <a href="" class="btn" >visit us to know more</a>
+    </div>
+</section>
+
+<!-------------- BIKES ------------>
+
+<section id="S" >
+   <h1> Bikes For Long Tour </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, voluptate, est ipsa animi placeat sint</p>
+
+<div class="row" >
+    <div class="col" >
+        <h3>Normal Riders</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatem quae perspiciatis cumque omnis similique blanditiis ducimus facilis labore corporis? Ut perferendis minus rerum numquam deleniti inventore ducimus praesentium cum!</p>
+
+    </div>
+    <div class="col" >
+        <h3>Pro Riders</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatem quae perspiciatis cumque omnis similique blanditiis ducimus facilis labore corporis? Ut perferendis minus rerum numquam deleniti inventore ducimus praesentium cum!</p>
+
+    </div>
+    <div class="col" >
+        <h3>Long Riders</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatem quae perspiciatis cumque omnis similique blanditiis ducimus facilis labore corporis? Ut perferendis minus rerum numquam deleniti inventore ducimus praesentium cum!</p>
+
+    </div>
+</div>
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------javascript for toggle menu------>
+<script>
+ 
+  var Header = document.getElementById("Header");
+  function showmenu() {  
+                  Header.style.right="0";
+                }
+  function hidemenu() {  
+                  Header.style.right="-200px";
+                }
+</script>
+    
+</body>
+</html>
